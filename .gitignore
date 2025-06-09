@@ -1,0 +1,13 @@
+# Ignorar diretórios de dependências
+node_modules/
+.vscode/
+
+# Ignorar arquivos de log
+*.log
+
+# Ignorar arquivos de build
+dist/
+build/
+
+# Ignorar arquivos de cache
+.cache/
