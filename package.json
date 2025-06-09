@@ -2,15 +2,24 @@
   "name": "api-restaurant",
   "version": "1.0.0",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "dev": "tsx watch src/server.ts"
+  },
   "author": "Pedro Carvalho",
   "license": "ISC",
   "description": "API para gerenciar pedidos das mesas de um restaurante.",
   "devDependencies": {
     "@rocketseat/eslint-config": "^2.2.2",
+    "@types/express": "^5.0.3",
+    "@types/node": "^20.14.12",
     "eslint": "^9.28.0",
     "eslint-config-prettier": "^10.1.5",
     "eslint-plugin-prettier": "^5.4.1",
-    "prettier": "^3.5.3"
+    "prettier": "^3.5.3",
+    "tsx": "^4.19.4",
+    "typescript": "^5.5.4"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
   }
 }
