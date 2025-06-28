@@ -48,4 +48,12 @@ export class OrdersController {
       next(error)
     }
   }
+
+  async index(request: Request, response: Response, next: NextFunction) {
+    try {
+      response.json()
+    } catch (error) {
+      next(error)
+    }
+  }
 }
